@@ -1,0 +1,37 @@
+<!-- your name, today's date -->
+ <!-- DOCTYPE this is your first tag on the page and it tells the browser that this is an HTML5 page -->
+ <!DOCTYPE html>
+ <!-- the html tag goes next -->
+  <html>
+    <!-- the head section has info for the browser -->
+   <head>
+       <title>CSC102 Home Page</title>
+   </head>
+
+   <!-- the body section holds the text and images that we want to show to the user-->
+    <body>
+      <header>
+       <h1>Welcome to my CSC102 Home Page</h1>
+       </header>
+       <nav>
+        <h2>Navigation</h2>
+        <a href="./Index.html">Home</a><br>
+        <a href="./boards.html">Boards</a><br>
+       </nav>
+       <!-- p is paragraph tag; has spacing around it by default-->
+       <p>
+           <!-- img is the image tag -->
+           <img id="memeImage" src="memeImage.png">
+       </p>
+
+       <footer>
+        Trevin Joseph<br>
+        University of Advancing Technology<br>
+        2625 West Baseline Road<br>
+        Tempe, Arizona, 85283<br>
+
+        800-658-5744<br>
+        January 26, 2024<br>
+       </footer>
+    </body>
+  </html>
